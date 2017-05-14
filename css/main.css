@@ -254,10 +254,16 @@ section#workshops {
 section#about 
 {  }
 
-div#about_middle img {
+figure {
     float: right;
-    width: 30%;
 }
+
+figure img{
+
+    width: 100%;
+}
+
+figcaption{display: none;}
 
 #about_left{ text-align: right;
 margin-top:1.5rem;}
@@ -265,7 +271,7 @@ margin-top:1.5rem;}
 #about_left_hide{display: none;}
 #about_right_hide{display: none;}
 
-#about_right{ padding-top:12.8rem; 
+#about_right{ padding-top:18.5rem; 
 line-height: 1.52rem;
 padding-left:0;
 margin-left: 0;}
@@ -423,6 +429,7 @@ ul.nav.navbar-nav.navbar-right > li > a {
 .workshop-right-hide{display: inline-block; }
 .workshop-right{display: none; }
 
+figcaption{display: block;}
 
  #about_left, #about_right{display: none;}
 
