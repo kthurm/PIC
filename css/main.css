@@ -1,0 +1,543 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1.12rem;
+    line-height: 1.52rem;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+font-size: 1.12rem;
+line-height: 1.52rem;}
+
+body > section {
+    clear: both;
+    padding: 0;
+    position: relative;
+    height: auto;
+    padding-top: 0 !important;
+}
+
+
+
+h1, h3 { font-family: 'Roboto', sans-serif;
+    color: #ef4037;
+    font-weight: 700;
+    font-size:.97rem;
+    line-height: 1.52rem;
+    padding:0;
+
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 0 !important;
+    margin-top:  0 !important;
+}
+
+h2:after, 
+h3:after {
+    height: 0;
+    width: 40;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+
+}
+
+.orange {
+    color: #ef4037;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size:.97rem;
+    line-height: 1.52rem;
+
+}
+
+.bold {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size:.97rem;
+}
+
+/* unvisited link */
+a:link {
+    color: #3895c9;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #3895c9;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #ef4037;
+    text-decoration: none;
+
+}
+
+a:active {
+    color: #ef4037;
+    text-decoration: none;
+
+}
+
+#wrap {
+    background: url(../img/coney.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 415px;
+    /*width: 100%;
+    min-width: 1000px;
+    max-height: 415px;*/
+    ;
+}
+
+
+#logo {
+    margin: 0  0 0 3rem;
+    padding-top: 45px;
+    text-align: left;
+    max-width: 1500px;
+    /* position: absolute; */
+    /* margin-top: 150px; */
+    /* z-index: 2000; */
+    /* background: #666; 
+    min-width: 800px;
+    max-width: 1091px;*/
+  
+    }
+
+#logo img{
+    height: 90%;
+    width: 90%;
+}
+
+#logo >{display: none;}
+
+.navbar-default {
+    background-color: #000;
+    border: none;
+    padding-top: 15px;
+   
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f0a93c;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover  {
+    color: #fff;
+
+}
+
+
+.justified {
+    position:absolute;
+    left:30%;
+}
+
+.navbar-nav > li > a {
+    padding: 0 1rem;
+
+}
+
+.nav > li > a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #f0a93c;
+    font-size: .97rem;
+    line-height:1rem ;
+}
+
+.nav li+li { border-left: 1px solid #f0a93c; }
+
+.nav > li.active {
+    background-color: #000;
+
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f0a93c;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius:0; 
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+p{margin-bottom: 1rem;}
+
+section#workshops {
+    clear: both;
+    margin-top: 7.9rem;
+}
+
+.workshop-right-hide {display:none;}
+
+.workshop-right{}
+
+
+section#about 
+{  }
+
+div#about_middle img {
+    float: right;
+    width: 30%;
+}
+
+#about_left{ text-align: right;
+margin-top:1.5rem;}
+
+#about_left_hide{display: none;}
+#about_right_hide{display: none;}
+
+#about_right{ padding-top:12.8rem; 
+line-height: 1.52rem;
+padding-left:0;
+margin-left: 0;}
+
+section#testimony {
+   
+}
+
+
+
+section#work {
+    margin-bottom:3rem;
+    }
+
+section#work p{
+    }
+
+section#work h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+
+section#work h4{
+    margin-bottom: 0;
+    margin-top:0;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size:.97rem;
+    }
+
+footer {
+    background-color: #000;
+    height: 160px;
+    color: #f0a93c;
+        font-family: 'Roboto', sans-serif;
+
+}
+
+footer .navbar-default {padding-top: 35px;}
+
+.ft-logo {
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    width: 31%;
+    margin-left: 31%;
+}
+
+footer .container {
+    width: 100%;
+    padding: 0;
+}
+
+
+ul.nav.navbar-nav.navbar-right li a{
+    font-size: .77rem;
+    line-height: .9rem;
+     
+}
+   
+   ul.nav.navbar-nav.navbar-right {
+    font-size: .77rem;
+    line-height: .9rem;
+    
+
+}
+
+ul.nav.navbar-nav.navbar-right > li {
+    clear: both;
+    border:none;
+
+}
+
+ul.nav.navbar-nav.navbar-right > li > a {
+    padding: 0; 
+}
+
+
+
+/*** ANIMATIONS **/
+
+.animation1,
+.animation2,
+.animation3 {
+    opacity: 0;
+}
+
+.animation1 {
+
+}
+.animation2{
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+}
+
+.animation3{
+    animation-delay: .6s;
+    -webkit-animation-delay: .6s;
+}
+
+.has-success .form-control-feedback {
+    color: #ffffff;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.has-error .form-control-feedback {
+    color: #ffffff;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    top:8px!important;
+    right: 22px!important;
+    font-size: 1.5em;
+}
+
+.has-error .help-block {
+    background-color: red;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media(max-width: 767px) {
+
+    .navbar-default .navbar-collapse {
+        border: none;
+    }
+
+    .navbar-default {
+    padding-top: 0; 
+}
+
+    .navbar-collapse.in,
+    .collapsing {
+        background-color: #112741;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background:transparent;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #112741;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+
+.workshop-right-hide{display: inline-block; }
+.workshop-right{display: none; }
+
+
+ #about_left, #about_right{display: none;}
+
+    #about_left_hide{display: inline-block; 
+        width: 100%; }
+
+    #about_middle{display: inline-block;    
+        }
+    #about_left_hide img{width: 20%;
+    float:left;    
+        }
+    #about_right_hide{display: inline-block; }
+
+  
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f0a93c;
+}
+
+
+
+#logo {
+    padding-top: 50px; 
+}
+
+
+
+}
+
+
+
+
+@media(min-width: 768px) { #wrap {
+    height: 201px;
+}
+
+section#workshops {
+    /* clear: both; */
+    margin-top: 1.9rem;
+}
+ 
+}
+
+
+@media(min-width: 992px) {   
+}
+
+
+
+@media(min-width: 1200px) { 
+
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+   #wrap {
+    min-width: 300px;
+}
+#logo {
+    
+    min-width: 200px;
+}
+
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
