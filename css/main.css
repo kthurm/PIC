@@ -243,7 +243,7 @@ p{margin-bottom: 1rem;}
 
 section#workshops {
     clear: both;
-    margin-top: 7.9rem;
+    margin-top: 10rem;
 }
 
 .workshop-right-hide {display:none;}
@@ -426,7 +426,10 @@ ul.nav.navbar-nav.navbar-right > li > a {
     }
 
 
-.workshop-right-hide{display: inline-block; }
+.workshop-right-hide {
+    display: inline-block;
+    padding-top: 50px;
+}
 .workshop-right{display: none; }
 
 figcaption{display: block;}
@@ -438,9 +441,11 @@ figcaption{display: block;}
 
     #about_middle{display: inline-block;    
         }
-    #about_left_hide img{width: 20%;
-    float:left;    
-        }
+
+        #about_left_hide img {
+    width: 35%;
+    float: left;
+}
     #about_right_hide{display: inline-block; }
 
   
@@ -476,7 +481,12 @@ section#workshops {
 }
 
 
-@media(min-width: 992px) {   
+@media(min-width: 992px) {  
+
+div#about_left .col-md-3 {
+    width: 30%;
+}
+
 }
 
 
