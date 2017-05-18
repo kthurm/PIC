@@ -409,7 +409,7 @@ ul.nav.navbar-nav.navbar-right > li > a {
 
    
     .navbar-default .navbar-toggle:focus {
-       background: rgba(1, 0, 0, 0.4);
+       background: #000;
     }
 
 
@@ -422,7 +422,7 @@ ul.nav.navbar-nav.navbar-right > li > a {
        border:none;
     }
 
-.navbar-default {
+.navbar-default .container-fluid{
     background-color: rgba(1, 0, 0, 0.7);
     border: none;
     padding-top: 15px;
@@ -480,15 +480,9 @@ figcaption{display: block;}
 
   
 
-
-
-
-
-
 #logo {
-    padding-top: 50px; 
+    padding-top: 67px; 
 }
-
 
 
 }
