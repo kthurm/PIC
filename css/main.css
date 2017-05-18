@@ -58,16 +58,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-font-size: 1.12rem;
-line-height: 1.52rem;}
+    position: relative;
+    font-size: 1.12rem;
+    line-height: 1.52rem;
+
+}
 
 body > section {
     clear: both;
-    padding: 0;
-    position: relative;
     height: auto;
-    padding-top: 0 !important;
 }
+
+
 
 
 
@@ -95,7 +97,7 @@ h3:after {
 }
 
 
-}
+
 
 .orange {
     color: #ef4037;
@@ -178,8 +180,11 @@ a:active {
    
 }
 
+
+
 .navbar-default .navbar-nav > li > a {
     color: #f0a93c;
+    font-size: .83rem;
 
 }
 
@@ -203,7 +208,7 @@ a:active {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #f0a93c;
-    font-size: .97rem;
+    font-size: .83rem;
     line-height:1rem ;
 }
 
@@ -248,11 +253,11 @@ section#workshops {
 
 .workshop-right-hide {display:none;}
 
-.workshop-right{}
+.workshop-right{font-size:.83rem;}
 
 
 section#about 
-{  }
+{ }
 
 figure {
     float: right;
@@ -274,7 +279,8 @@ margin-top:1.5rem;}
 #about_right{ padding-top:18.5rem; 
 line-height: 1.52rem;
 padding-left:0;
-margin-left: 0;}
+margin-left: 0;
+font-size:.83rem;}
 
 section#testimony {
    
@@ -326,27 +332,21 @@ footer .container {
 }
 
 
-ul.nav.navbar-nav.navbar-right li a{
-    font-size: .77rem;
-    line-height: .9rem;
-     
-}
-   
-   ul.nav.navbar-nav.navbar-right {
-    font-size: .77rem;
-    line-height: .9rem;
-    
 
-}
+     
+   
 
 ul.nav.navbar-nav.navbar-right > li {
     clear: both;
     border:none;
+    font-size: .83rem;
 
 }
 
 ul.nav.navbar-nav.navbar-right > li > a {
     padding: 0; 
+    font-size: .83rem;
+    line-height: .9rem;
 }
 
 
@@ -397,11 +397,21 @@ ul.nav.navbar-nav.navbar-right > li > a {
     border-radius: 10px;
 }
 
+
+
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media(max-width: 767px) {
+
+   
+    .navbar-default .navbar-toggle:focus {
+        background-color: #000000;
+    }
+
 
     .navbar-default .navbar-collapse {
         border: none;
@@ -413,17 +423,13 @@ ul.nav.navbar-nav.navbar-right > li > a {
 
     .navbar-collapse.in,
     .collapsing {
-        background-color: #112741;
+        background-color: #0000;
     }
-    .navbar-default .navbar-toggle:hover {
-        background:transparent;
-    }
-    .navbar-default .navbar-toggle:focus {
-        background-color: #112741;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #fff;
-    }
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f0a93c;
+}
 
 
 .workshop-right-hide {
@@ -452,9 +458,6 @@ figcaption{display: block;}
 }
 
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #f0a93c;
-}
 
 
 
