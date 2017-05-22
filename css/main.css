@@ -144,12 +144,14 @@ a:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    height: 415px;
+    height:415px;
+  
     /*width: 100%;
     min-width: 1000px;
     max-height: 415px;*/
-    ;
+    
 }
+
 
 
 #logo {
@@ -171,7 +173,7 @@ a:active {
     width: 90%;
 }
 
-#logo >{display: none;}
+
 
 .navbar-default {
     background-color: #000;
@@ -248,7 +250,7 @@ p{margin-bottom: 1rem;}
 
 section#workshops {
     clear: both;
-    margin-top: 10rem;
+    margin-top: 100px;
 }
 
 .workshop-right-hide {display:none;}
@@ -270,13 +272,13 @@ figure img{
 
 figcaption{display: none;}
 
-#about_left{ text-align: right;
+.about_left{ text-align: right;
 margin-top:1.5rem;}
 
 #about_left_hide{display: none;}
 #about_right_hide{display: none;}
 
-#about_right{ padding-top:18.5rem; 
+.about_right{ padding-top:18.5rem; 
 line-height: 1.52rem;
 padding-left:0;
 margin-left: 0;
@@ -332,9 +334,6 @@ footer .container {
 }
 
 
-
-     
-   
 
 ul.nav.navbar-nav.navbar-right > li {
     clear: both;
@@ -404,7 +403,6 @@ ul.nav.navbar-nav.navbar-right > li > a {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
 @media(max-width: 767px) {
 
    
@@ -455,6 +453,17 @@ ul.nav.navbar-nav.navbar-right > li > a {
     background-color: #f0a93c;
 }
 
+#wrap {
+    
+    height:215px;
+    
+}
+
+section#workshops {
+
+    top: 140px;
+}
+
 
 .workshop-right-hide {
     display: inline-block;
@@ -464,19 +473,20 @@ ul.nav.navbar-nav.navbar-right > li > a {
 
 figcaption{display: block;}
 
- #about_left, #about_right{display: none;}
+.about_left, .about_right{display: none;}
 
-    #about_left_hide{display: inline-block; 
+#about_left_hide{display: inline-block; 
         width: 100%; }
 
-    #about_middle{display: inline-block;    
+.about_middle{display: inline-block;    
         }
 
-        #about_left_hide img {
+ .about_left_hide img {
     width: 35%;
     float: left;
 }
-    #about_right_hide{display: inline-block; }
+
+    .about_right_hide{display: inline-block; }
 
   
 
@@ -484,55 +494,17 @@ figcaption{display: block;}
     padding-top: 67px; 
 }
 
-
 }
 
 
+@media (min-width: 767px){
 
-
-@media(min-width: 768px) { #wrap {
-    height: 201px;
-}
-
-section#workshops {
-    /* clear: both; */
-    margin-top: 1.9rem;
-}
- 
-}
-
-
-@media(min-width: 992px) {  
-
-div#about_left .col-md-3 {
-    width: 30%;
+    section#workshops {
+    clear: both;
+    margin-top: 180px;
 }
 
 }
-
-
-
-@media(min-width: 1200px) { 
-
-
-}
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-   #wrap {
-    min-width: 300px;
-}
-#logo {
-    
-    min-width: 200px;
-}
-
-}
-
 
 /* ==========================================================================
    Helper classes
