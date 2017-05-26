@@ -250,7 +250,7 @@ p{margin-bottom: 1rem;}
 
 section#workshops {
     clear: both;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 .workshop-right-hide {display:none;}
@@ -338,10 +338,11 @@ footer a:hover {
     text-decoration: none;
 }
 
+footer .col-md-5{margin: 0}
 footer .col-md-5 li {
     text-decoration: none;
     display: inline-block;
-   padding: 0 1rem;
+   padding: 0 .7rem;
 }
 
 footer .col-md-3 {
@@ -353,7 +354,7 @@ footer .col-md-3 {
 
 footer .col-md-5 ul {
     text-align: left;
-    margin: 28px 0 0 55px;
+    margin: 28px 0 0 0;
 }
 footer .col-md-5 li{text-decoration: none;}
 
@@ -363,7 +364,7 @@ footer .col-md-5 li+li { border-left: 1px solid #f0a93c; }
     /* text-align: center; */
     /* margin: 0 auto; */
     width: 31%;
-    margin-left: 31%;
+    margin-left: 34%;
 }
 
 
@@ -511,17 +512,26 @@ footer .container {
 
 section#workshops {
 
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 
 .workshop-right-hide {
     display: inline-block;
     padding-top: 50px;
+    font-size: .6rem
 }
 .workshop-right{display: none; }
 
-figcaption{display: block;}
+figcaption{display: block;
+font-size: .7rem;
+text-align: right;}
+
+figure{margin: 0 auto;}
+
+figure img{padding: 0 0 0 30px;
+margin: 0 auto;
+text-align: center;}
 
 .about_left, .about_right{display: none;}
 
@@ -558,11 +568,15 @@ footer.navbar-nav {
 }
 
 footer .col-md-3 {
+    margin-top: 8px;
+}
+
+footer .col-md-3 {
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
-main.css:351
+
 .ft-left {
     margin-left: 0;
 }
@@ -588,10 +602,39 @@ footer .col-md-5 li {
 }
 
 
-@media (min-width: 767px){
+@media (min-width: 768px)
+{
+section#workshops {
+    
+      margin-top: 205px;
+}
+
+
+
+
+@media (min-width: 992px)
+{
+section#workshops {
+    
+      margin-top: 195px;
+}
+}
+
+
+@media (min-width: 1200px){
 
     section#workshops {
-    
+    clear: both;
+    margin-top: 160px;
+}
+
+}
+
+@media (min-width: 1500px){
+
+    section#workshops {
+    clear: both;
+    margin-top: 160px;
 }
 
 }
